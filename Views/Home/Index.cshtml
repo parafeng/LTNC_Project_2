@@ -1,0 +1,336 @@
+@{
+    ViewData["Title"] = "Mini Photoshop Online";
+}
+
+<div class="row">
+    <!-- Tools Panel -->
+    <div class="col-lg-3 col-md-4 mb-4">
+        <div class="tool-panel p-3">
+            <h5 class="mb-3"><i class="fas fa-tools"></i> Công cụ</h5>
+            
+            <!-- Upload Section -->
+            <div class="mb-4">
+                <h6>Upload Ảnh</h6>
+                <div class="upload-area" onclick="document.getElementById('fileInput').click();">
+                    <i class="fas fa-cloud-upload-alt fa-2x text-muted mb-2"></i>
+                    <p class="mb-0">Click để chọn ảnh</p>
+                    <small class="text-muted">JPG, PNG, GIF</small>
+                </div>
+                <input type="file" id="fileInput" accept="image/*" style="display: none;">
+            </div>
+
+            <!-- Basic Tools -->
+            <div class="mb-4">
+                <h6>Công cụ cơ bản</h6>
+                <button class="btn btn-outline-primary btn-tool btn-sm" onclick="rotateImage()">
+                    <i class="fas fa-redo"></i> Xoay 90°
+                </button>
+                <button class="btn btn-outline-success btn-tool btn-sm" onclick="showResizeModal()">
+                    <i class="fas fa-expand-arrows-alt"></i> Resize
+                </button>
+                <button class="btn btn-outline-warning btn-tool btn-sm" onclick="showCropModal()">
+                    <i class="fas fa-crop"></i> Crop
+                </button>
+            </div>
+
+            <!-- Effects -->
+            <div class="mb-4">
+                <h6>Hiệu ứng</h6>
+                <div class="mb-3">
+                    <label for="brightnessRange" class="form-label">Brightness</label>
+                    <input type="range" class="form-range range-input" id="brightnessRange" 
+                           min="-1" max="1" step="0.1" value="0" onchange="adjustBrightness(this.value)">
+                </div>
+                <div class="mb-3">
+                    <label for="contrastRange" class="form-label">Contrast</label>
+                    <input type="range" class="form-range range-input" id="contrastRange" 
+                           min="-1" max="1" step="0.1" value="0" onchange="adjustContrast(this.value)">
+                </div>
+                <button class="btn btn-outline-dark btn-tool btn-sm" onclick="invertColors()">
+                    <i class="fas fa-adjust"></i> Invert
+                </button>
+            </div>
+
+            <!-- History -->
+            <div class="mb-4">
+                <h6>Lịch sử</h6>
+                <button class="btn btn-outline-secondary btn-tool btn-sm" onclick="undoAction()">
+                    <i class="fas fa-undo"></i> Undo
+                </button>
+                <button class="btn btn-outline-secondary btn-tool btn-sm" onclick="redoAction()">
+                    <i class="fas fa-redo"></i> Redo
+                </button>
+            </div>
+
+            <!-- Export -->
+            <div>
+                <h6>Export</h6>
+                <button class="btn btn-success btn-tool" onclick="downloadImage()">
+                    <i class="fas fa-download"></i> Tải xuống
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Display Area -->
+    <div class="col-lg-9 col-md-8">
+        <div class="image-container" id="imageContainer">
+            <div class="text-center text-muted" id="noImageText">
+                <i class="fas fa-image fa-3x mb-3"></i>
+                <h5>Chưa có ảnh nào được chọn</h5>
+                <p>Vui lòng upload ảnh để bắt đầu chỉnh sửa</p>
+            </div>
+            <img id="currentImage" style="display: none;" />
+        </div>
+    </div>
+</div>
+
+<!-- Resize Modal -->
+<div class="modal fade" id="resizeModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Resize Ảnh</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-6">
+                        <label for="resizeWidth" class="form-label">Width</label>
+                        <input type="number" class="form-control" id="resizeWidth" value="800">
+                    </div>
+                    <div class="col-6">
+                        <label for="resizeHeight" class="form-label">Height</label>
+                        <input type="number" class="form-control" id="resizeHeight" value="600">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                <button type="button" class="btn btn-primary" onclick="resizeImage()">Resize</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Crop Modal -->
+<div class="modal fade" id="cropModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Crop Ảnh</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-6">
+                        <label for="cropX" class="form-label">X</label>
+                        <input type="number" class="form-control" id="cropX" value="0">
+                    </div>
+                    <div class="col-6">
+                        <label for="cropY" class="form-label">Y</label>
+                        <input type="number" class="form-control" id="cropY" value="0">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-6">
+                        <label for="cropWidth" class="form-label">Width</label>
+                        <input type="number" class="form-control" id="cropWidth" value="400">
+                    </div>
+                    <div class="col-6">
+                        <label for="cropHeight" class="form-label">Height</label>
+                        <input type="number" class="form-control" id="cropHeight" value="300">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                <button type="button" class="btn btn-primary" onclick="cropImage()">Crop</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+<script>
+    let currentImagePath = '';
+
+    // File upload handler
+    document.getElementById('fileInput').addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if (file) {
+            uploadImage(file);
+        }
+    });
+
+    function uploadImage(file) {
+        const formData = new FormData();
+        formData.append('file', file);
+
+        fetch('/Home/Upload', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                currentImagePath = data.imagePath;
+                displayImage(data.imagePath);
+                resetControls();
+            } else {
+                alert('Lỗi upload: ' + data.message);
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Có lỗi xảy ra khi upload ảnh');
+        });
+    }
+
+    function displayImage(imagePath) {
+        const img = document.getElementById('currentImage');
+        const noImageText = document.getElementById('noImageText');
+        
+        img.src = imagePath + '?t=' + new Date().getTime(); // Cache busting
+        img.style.display = 'block';
+        noImageText.style.display = 'none';
+    }
+
+    function processImage(operation, parameters) {
+        const request = {
+            imagePath: currentImagePath,
+            operation: operation,
+            parameters: parameters
+        };
+
+        fetch('/Home/ProcessImage', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(request)
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                currentImagePath = data.imagePath;
+                displayImage(data.imagePath);
+            } else {
+                alert('Lỗi xử lý: ' + data.message);
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Có lỗi xảy ra khi xử lý ảnh');
+        });
+    }
+
+    function rotateImage() {
+        if (!currentImagePath) {
+            alert('Vui lòng chọn ảnh trước');
+            return;
+        }
+        processImage('rotate', { angle: 90 });
+    }
+
+    function showResizeModal() {
+        if (!currentImagePath) {
+            alert('Vui lòng chọn ảnh trước');
+            return;
+        }
+        new bootstrap.Modal(document.getElementById('resizeModal')).show();
+    }
+
+    function resizeImage() {
+        const width = document.getElementById('resizeWidth').value;
+        const height = document.getElementById('resizeHeight').value;
+        
+        processImage('resize', { width: parseInt(width), height: parseInt(height) });
+        bootstrap.Modal.getInstance(document.getElementById('resizeModal')).hide();
+    }
+
+    function showCropModal() {
+        if (!currentImagePath) {
+            alert('Vui lòng chọn ảnh trước');
+            return;
+        }
+        new bootstrap.Modal(document.getElementById('cropModal')).show();
+    }
+
+    function cropImage() {
+        const x = document.getElementById('cropX').value;
+        const y = document.getElementById('cropY').value;
+        const width = document.getElementById('cropWidth').value;
+        const height = document.getElementById('cropHeight').value;
+        
+        processImage('crop', { 
+            x: parseInt(x), 
+            y: parseInt(y), 
+            width: parseInt(width), 
+            height: parseInt(height) 
+        });
+        bootstrap.Modal.getInstance(document.getElementById('cropModal')).hide();
+    }
+
+    function adjustBrightness(value) {
+        if (!currentImagePath) return;
+        processImage('brightness', { value: parseFloat(value) });
+    }
+
+    function adjustContrast(value) {
+        if (!currentImagePath) return;
+        processImage('contrast', { value: parseFloat(value) });
+    }
+
+    function invertColors() {
+        if (!currentImagePath) {
+            alert('Vui lòng chọn ảnh trước');
+            return;
+        }
+        processImage('invert', {});
+    }
+
+    function undoAction() {
+        fetch('/Home/Undo', {
+            method: 'POST'
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                currentImagePath = data.imagePath;
+                displayImage(data.imagePath);
+            } else {
+                alert(data.message);
+            }
+        });
+    }
+
+    function redoAction() {
+        fetch('/Home/Redo', {
+            method: 'POST'
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                currentImagePath = data.imagePath;
+                displayImage(data.imagePath);
+            } else {
+                alert(data.message);
+            }
+        });
+    }
+
+    function downloadImage() {
+        if (!currentImagePath) {
+            alert('Vui lòng chọn ảnh trước');
+            return;
+        }
+        window.location.href = '/Home/Download';
+    }
+
+    function resetControls() {
+        document.getElementById('brightnessRange').value = 0;
+        document.getElementById('contrastRange').value = 0;
+    }
+</script>
+} 

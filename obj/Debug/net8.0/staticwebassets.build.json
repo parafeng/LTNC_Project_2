@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "jte9T+j2RBSMxjO2VryjD8NtawzynNFsJRhUjzCdY9U=",
+  "Source": "MiniPhotoshop",
+  "BasePath": "_content/MiniPhotoshop",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MiniPhotoshop/wwwroot",
+      "Source": "MiniPhotoshop",
+      "ContentRoot": "/Users/trinhquocan/Downloads/LTNC_Project_2/wwwroot/",
+      "BasePath": "_content/MiniPhotoshop",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
