@@ -1,0 +1,893 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/images/Requirement.jpg",
+      "PackagePath": "staticwebassets/images/Requirement.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/js/app.js",
+      "PackagePath": "staticwebassets/js/app.js"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/js/brightness.js",
+      "PackagePath": "staticwebassets/js/brightness.js"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/0052a11f-dd88-41ea-bbb2-03bc4d7f3a60.jpg",
+      "PackagePath": "staticwebassets/uploads/0052a11f-dd88-41ea-bbb2-03bc4d7f3a60.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/009ebc9e-04db-4ac1-8457-2cad01b022f8.jpg",
+      "PackagePath": "staticwebassets/uploads/009ebc9e-04db-4ac1-8457-2cad01b022f8.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/0237b936-e8a4-4a1d-8711-87e2122afe70.jpg",
+      "PackagePath": "staticwebassets/uploads/0237b936-e8a4-4a1d-8711-87e2122afe70.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/025d99bc-3099-4d11-b809-f0a14882e45d.jpg",
+      "PackagePath": "staticwebassets/uploads/025d99bc-3099-4d11-b809-f0a14882e45d.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/042cf276-3bf7-4ffc-bda7-bda626d89736.jpg",
+      "PackagePath": "staticwebassets/uploads/042cf276-3bf7-4ffc-bda7-bda626d89736.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/05b9fe19-78b8-40c7-8293-5aa0ffe8300e_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/05b9fe19-78b8-40c7-8293-5aa0ffe8300e_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/065ff13d-35a4-430d-9383-1604166031a9.jpg",
+      "PackagePath": "staticwebassets/uploads/065ff13d-35a4-430d-9383-1604166031a9.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/07ba0e8b-8293-4fce-9135-a7248e84440f.jpg",
+      "PackagePath": "staticwebassets/uploads/07ba0e8b-8293-4fce-9135-a7248e84440f.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/07ffbda4-5579-4e1a-a5b3-b958e9424d0d.jpg",
+      "PackagePath": "staticwebassets/uploads/07ffbda4-5579-4e1a-a5b3-b958e9424d0d.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/0901fb8e-6696-474a-b08c-1b076551eadc.jpg",
+      "PackagePath": "staticwebassets/uploads/0901fb8e-6696-474a-b08c-1b076551eadc.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/097c9cc2-886d-4503-aad2-7e380b5c280e.jpg",
+      "PackagePath": "staticwebassets/uploads/097c9cc2-886d-4503-aad2-7e380b5c280e.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/099bc9f9-bffd-481d-9cc8-5a9ffce20dd8.jpg",
+      "PackagePath": "staticwebassets/uploads/099bc9f9-bffd-481d-9cc8-5a9ffce20dd8.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered.png",
+      "PackagePath": "staticwebassets/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered.png",
+      "PackagePath": "staticwebassets/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered.png",
+      "PackagePath": "staticwebassets/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered_filtered.png",
+      "PackagePath": "staticwebassets/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered_filtered_filtered.png",
+      "PackagePath": "staticwebassets/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered_filtered_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered_filtered_filtered_filtered.png",
+      "PackagePath": "staticwebassets/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered_filtered_filtered_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered_filtered_filtered_filtered_filtered.png",
+      "PackagePath": "staticwebassets/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered_filtered_filtered_filtered_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered_filtered_filtered_filtered_filtered_filtered.png",
+      "PackagePath": "staticwebassets/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered_filtered_filtered_filtered_filtered_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered_filtered_filtered_filtered_filtered_filtered_filtered.png",
+      "PackagePath": "staticwebassets/uploads/09cdf2c903db4cd8aa9461a4c7efd060_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered_filtered_filtered_filtered_filtered_filtered_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/0b9ccacf-d05d-4ed4-8fc2-8f7f87c574c7.jpg",
+      "PackagePath": "staticwebassets/uploads/0b9ccacf-d05d-4ed4-8fc2-8f7f87c574c7.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/0c105663-6ff1-4a26-836e-5be128e6820f.jpg",
+      "PackagePath": "staticwebassets/uploads/0c105663-6ff1-4a26-836e-5be128e6820f.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/100db036-4352-4bc2-b82a-f1af704cfd76.jpg",
+      "PackagePath": "staticwebassets/uploads/100db036-4352-4bc2-b82a-f1af704cfd76.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/133bdbdf-44f9-4ef2-80e3-7bf08001c441_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/133bdbdf-44f9-4ef2-80e3-7bf08001c441_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/13b13e50-8250-40ae-b0fb-2533fca19086.jpg",
+      "PackagePath": "staticwebassets/uploads/13b13e50-8250-40ae-b0fb-2533fca19086.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/1749803a-53b8-447a-9f17-b68def95b4db.jpg",
+      "PackagePath": "staticwebassets/uploads/1749803a-53b8-447a-9f17-b68def95b4db.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/17664252-f6fc-4554-b22a-671529ca8453.jpg",
+      "PackagePath": "staticwebassets/uploads/17664252-f6fc-4554-b22a-671529ca8453.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/1825859d-f025-47a3-80cc-e3f5cca84888_prj.jpg",
+      "PackagePath": "staticwebassets/uploads/1825859d-f025-47a3-80cc-e3f5cca84888_prj.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/1947d82a-62e1-407b-b967-9c15a07e261d.jpg",
+      "PackagePath": "staticwebassets/uploads/1947d82a-62e1-407b-b967-9c15a07e261d.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/1969c0db-23df-42d8-8a7c-42e4868eb2d3.jpg",
+      "PackagePath": "staticwebassets/uploads/1969c0db-23df-42d8-8a7c-42e4868eb2d3.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/19fcfda48b2a42a88e9efb2ae441d99f_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/19fcfda48b2a42a88e9efb2ae441d99f_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/19fcfda48b2a42a88e9efb2ae441d99f_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered.png",
+      "PackagePath": "staticwebassets/uploads/19fcfda48b2a42a88e9efb2ae441d99f_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/1bdd7d1d-2ec5-404d-b15b-f307378329da_prj.jpg",
+      "PackagePath": "staticwebassets/uploads/1bdd7d1d-2ec5-404d-b15b-f307378329da_prj.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/1ca50171-386d-4aee-ac25-e9cae554ccfe.jpg",
+      "PackagePath": "staticwebassets/uploads/1ca50171-386d-4aee-ac25-e9cae554ccfe.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/1dacf5ef-4254-4f2e-b445-34c56557ba5a_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/1dacf5ef-4254-4f2e-b445-34c56557ba5a_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/1de35934-a421-4556-ab93-4e5a27b91d60.jpg",
+      "PackagePath": "staticwebassets/uploads/1de35934-a421-4556-ab93-4e5a27b91d60.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/1ff810d3-1b11-4ee9-9cc1-26c533d2c52c.jpg",
+      "PackagePath": "staticwebassets/uploads/1ff810d3-1b11-4ee9-9cc1-26c533d2c52c.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/22754250-9e9c-4dcf-9579-c637888c7522.jpg",
+      "PackagePath": "staticwebassets/uploads/22754250-9e9c-4dcf-9579-c637888c7522.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/24458fa1-f897-4261-90fe-1daa18d11cb2.jpg",
+      "PackagePath": "staticwebassets/uploads/24458fa1-f897-4261-90fe-1daa18d11cb2.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/27ba211b-0585-40f4-908f-a31a3e9ba080_prj.jpg",
+      "PackagePath": "staticwebassets/uploads/27ba211b-0585-40f4-908f-a31a3e9ba080_prj.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/2969b8e6-1212-49e6-bc1d-1c619c6a9ab7.jpg",
+      "PackagePath": "staticwebassets/uploads/2969b8e6-1212-49e6-bc1d-1c619c6a9ab7.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/2ab3e80c-48bd-43fb-8eb0-ee2c6ddbaf88.jpg",
+      "PackagePath": "staticwebassets/uploads/2ab3e80c-48bd-43fb-8eb0-ee2c6ddbaf88.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/2cb173313e0a4dd28182d06a0c77041b_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/2cb173313e0a4dd28182d06a0c77041b_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/2cb173313e0a4dd28182d06a0c77041b_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered.png",
+      "PackagePath": "staticwebassets/uploads/2cb173313e0a4dd28182d06a0c77041b_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/2e62cf9c76b74c228e8d9f671aac9ac9_Thiết kế chưa có tên (1).jpg",
+      "PackagePath": "staticwebassets/uploads/2e62cf9c76b74c228e8d9f671aac9ac9_Thiết kế chưa có tên (1).jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/2eeb778a-497c-435d-9f78-2f59ee85ea1b_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/2eeb778a-497c-435d-9f78-2f59ee85ea1b_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/309f5a45-8443-4adb-b6ea-6326f3cfefcf.jpg",
+      "PackagePath": "staticwebassets/uploads/309f5a45-8443-4adb-b6ea-6326f3cfefcf.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/30e5f9a6-ca17-4405-9600-ab2346a2bfd1.jpg",
+      "PackagePath": "staticwebassets/uploads/30e5f9a6-ca17-4405-9600-ab2346a2bfd1.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/3102cbb0061740989b408be9f998b0b0_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/3102cbb0061740989b408be9f998b0b0_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/3102cbb0061740989b408be9f998b0b0_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered.png",
+      "PackagePath": "staticwebassets/uploads/3102cbb0061740989b408be9f998b0b0_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/3102cbb0061740989b408be9f998b0b0_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered.png",
+      "PackagePath": "staticwebassets/uploads/3102cbb0061740989b408be9f998b0b0_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/3102cbb0061740989b408be9f998b0b0_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered.png",
+      "PackagePath": "staticwebassets/uploads/3102cbb0061740989b408be9f998b0b0_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/31212f22-a605-4f2d-9251-ee5df2153e40.jpg",
+      "PackagePath": "staticwebassets/uploads/31212f22-a605-4f2d-9251-ee5df2153e40.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/32511632-e31e-450d-837b-8326f9fc0039.jpg",
+      "PackagePath": "staticwebassets/uploads/32511632-e31e-450d-837b-8326f9fc0039.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/33507d6e-d92c-44ed-b0bd-4ccc8e966d82.jpg",
+      "PackagePath": "staticwebassets/uploads/33507d6e-d92c-44ed-b0bd-4ccc8e966d82.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/34d1125c-d588-4ddf-8107-61d4538cdad7_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/34d1125c-d588-4ddf-8107-61d4538cdad7_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/36da7f41-7846-4fcf-abc6-98004e20e244.jpg",
+      "PackagePath": "staticwebassets/uploads/36da7f41-7846-4fcf-abc6-98004e20e244.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/37b76f08-e4a6-4960-82fc-c3d30d811e8d_prj.jpg",
+      "PackagePath": "staticwebassets/uploads/37b76f08-e4a6-4960-82fc-c3d30d811e8d_prj.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/39a715cd-27a6-47eb-91eb-2e404d3fd6aa.jpg",
+      "PackagePath": "staticwebassets/uploads/39a715cd-27a6-47eb-91eb-2e404d3fd6aa.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/3c925400-510a-466a-be08-5d60886707cc.jpg",
+      "PackagePath": "staticwebassets/uploads/3c925400-510a-466a-be08-5d60886707cc.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/3da6857394714ce7b26dcc1a7a58be67_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/3da6857394714ce7b26dcc1a7a58be67_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/3da6857394714ce7b26dcc1a7a58be67_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered.png",
+      "PackagePath": "staticwebassets/uploads/3da6857394714ce7b26dcc1a7a58be67_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/3da6857394714ce7b26dcc1a7a58be67_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered.png",
+      "PackagePath": "staticwebassets/uploads/3da6857394714ce7b26dcc1a7a58be67_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/3eb0665c-a3fd-497d-8dd0-09a934eee8f5.jpg",
+      "PackagePath": "staticwebassets/uploads/3eb0665c-a3fd-497d-8dd0-09a934eee8f5.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/4221ea79-d25a-41a2-b6ce-31d6271b22d0.jpg",
+      "PackagePath": "staticwebassets/uploads/4221ea79-d25a-41a2-b6ce-31d6271b22d0.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/4270ef8d-b971-48b4-b83c-93066cf97118.jpg",
+      "PackagePath": "staticwebassets/uploads/4270ef8d-b971-48b4-b83c-93066cf97118.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/42790253-2183-47b6-8893-2abbd4102446.jpg",
+      "PackagePath": "staticwebassets/uploads/42790253-2183-47b6-8893-2abbd4102446.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/42fc8aff-1fe7-4a39-90f5-7a37e004daaa.jpg",
+      "PackagePath": "staticwebassets/uploads/42fc8aff-1fe7-4a39-90f5-7a37e004daaa.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/433e1d28-f40a-45b6-b7fa-a9668ef5d3a2.jpg",
+      "PackagePath": "staticwebassets/uploads/433e1d28-f40a-45b6-b7fa-a9668ef5d3a2.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/44901bd2-210e-435c-9631-ed36bdccdee1.jpg",
+      "PackagePath": "staticwebassets/uploads/44901bd2-210e-435c-9631-ed36bdccdee1.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/47ccd9a9-9462-4192-afe6-767e41e55b10.jpg",
+      "PackagePath": "staticwebassets/uploads/47ccd9a9-9462-4192-afe6-767e41e55b10.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/496ac201-5d98-41b6-b767-9b39bb970dfb.jpg",
+      "PackagePath": "staticwebassets/uploads/496ac201-5d98-41b6-b767-9b39bb970dfb.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/4976d0f9-b21d-4fe9-a6af-d2482e0efce1.jpg",
+      "PackagePath": "staticwebassets/uploads/4976d0f9-b21d-4fe9-a6af-d2482e0efce1.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/4ab10021-56a7-4aba-890f-71a62167b280.jpg",
+      "PackagePath": "staticwebassets/uploads/4ab10021-56a7-4aba-890f-71a62167b280.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/4c593b90-7cc6-4ccd-b0b7-396b1e7a09c7.jpg",
+      "PackagePath": "staticwebassets/uploads/4c593b90-7cc6-4ccd-b0b7-396b1e7a09c7.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/4dabf2b9-00b8-465d-a794-0c8f192680f4.jpg",
+      "PackagePath": "staticwebassets/uploads/4dabf2b9-00b8-465d-a794-0c8f192680f4.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/4e6d1ef4-97c0-4a1e-a538-5c53554885ea.jpg",
+      "PackagePath": "staticwebassets/uploads/4e6d1ef4-97c0-4a1e-a538-5c53554885ea.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/4fa25a38-b865-4b7d-9bb8-a6f8170eafc8.jpg",
+      "PackagePath": "staticwebassets/uploads/4fa25a38-b865-4b7d-9bb8-a6f8170eafc8.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/508578b5-d637-4397-8ba9-e1411651f666.jpg",
+      "PackagePath": "staticwebassets/uploads/508578b5-d637-4397-8ba9-e1411651f666.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/5093791e-e227-4e29-8116-b78bf011fe83_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/5093791e-e227-4e29-8116-b78bf011fe83_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/52a1aec6-c694-443c-8bfd-aa874735d4a2_Au_kinh.png",
+      "PackagePath": "staticwebassets/uploads/52a1aec6-c694-443c-8bfd-aa874735d4a2_Au_kinh.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/53c1b353-a4b1-4c7e-a179-1f3780fd0397.jpg",
+      "PackagePath": "staticwebassets/uploads/53c1b353-a4b1-4c7e-a179-1f3780fd0397.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/53eae5fa-b2c6-459d-bfcf-3417098f1d51.jpg",
+      "PackagePath": "staticwebassets/uploads/53eae5fa-b2c6-459d-bfcf-3417098f1d51.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/554323fd-b49d-4330-a160-f2a903a27a01.jpg",
+      "PackagePath": "staticwebassets/uploads/554323fd-b49d-4330-a160-f2a903a27a01.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/55ca7d5c-7a16-49d2-9ae3-6a773130b52a.jpg",
+      "PackagePath": "staticwebassets/uploads/55ca7d5c-7a16-49d2-9ae3-6a773130b52a.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/570bbe01-0078-41fa-8216-86404396ba09.jpg",
+      "PackagePath": "staticwebassets/uploads/570bbe01-0078-41fa-8216-86404396ba09.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/579d041e-f8ef-4d09-9b87-06b80b3b170b.jpg",
+      "PackagePath": "staticwebassets/uploads/579d041e-f8ef-4d09-9b87-06b80b3b170b.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/598ed13e-00e2-4095-9d5c-bc82b94a4cb9.jpg",
+      "PackagePath": "staticwebassets/uploads/598ed13e-00e2-4095-9d5c-bc82b94a4cb9.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/5bfe507a-48b2-4ac5-9df3-7ea634bb5c44.jpg",
+      "PackagePath": "staticwebassets/uploads/5bfe507a-48b2-4ac5-9df3-7ea634bb5c44.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/5c0a2410-c529-437d-a9f2-079950f1b07e.jpg",
+      "PackagePath": "staticwebassets/uploads/5c0a2410-c529-437d-a9f2-079950f1b07e.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/5deb5b7a-0d4d-484b-a0b4-cfbf766ee0d5.jpg",
+      "PackagePath": "staticwebassets/uploads/5deb5b7a-0d4d-484b-a0b4-cfbf766ee0d5.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/5e5363bb-cce6-42da-b117-8ec741ba1c23.jpg",
+      "PackagePath": "staticwebassets/uploads/5e5363bb-cce6-42da-b117-8ec741ba1c23.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/5ed6255a-e17f-4be3-ae06-90acf15ba4f9_Untitled-1.jpg",
+      "PackagePath": "staticwebassets/uploads/5ed6255a-e17f-4be3-ae06-90acf15ba4f9_Untitled-1.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/5f1c47dc-2f1a-4098-9b53-966d4ea62fce.jpg",
+      "PackagePath": "staticwebassets/uploads/5f1c47dc-2f1a-4098-9b53-966d4ea62fce.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/615548ed-c537-4acc-9ab9-2fa47081ed9c.jpg",
+      "PackagePath": "staticwebassets/uploads/615548ed-c537-4acc-9ab9-2fa47081ed9c.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/61e65287-86a5-4458-9f48-b7a838936acd.jpg",
+      "PackagePath": "staticwebassets/uploads/61e65287-86a5-4458-9f48-b7a838936acd.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/6376f3e3-bfc9-412f-9691-1ea5e17ac8aa.jpg",
+      "PackagePath": "staticwebassets/uploads/6376f3e3-bfc9-412f-9691-1ea5e17ac8aa.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/639f34f5-702b-4327-8640-e75438516fcc.jpg",
+      "PackagePath": "staticwebassets/uploads/639f34f5-702b-4327-8640-e75438516fcc.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/63df07b9-bf38-4f5a-b12e-7f26fa3301e5.jpg",
+      "PackagePath": "staticwebassets/uploads/63df07b9-bf38-4f5a-b12e-7f26fa3301e5.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/660a73b2-20da-44a4-ab39-1147808b929f.jpg",
+      "PackagePath": "staticwebassets/uploads/660a73b2-20da-44a4-ab39-1147808b929f.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/6627907e-a20c-4c13-9786-c4f6899dda1f_Screenshot 2025-05-23 at 13.44.43.png",
+      "PackagePath": "staticwebassets/uploads/6627907e-a20c-4c13-9786-c4f6899dda1f_Screenshot 2025-05-23 at 13.44.43.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/67253dec-ffdc-43c2-8bfb-3aa5a836e088_prj.jpg",
+      "PackagePath": "staticwebassets/uploads/67253dec-ffdc-43c2-8bfb-3aa5a836e088_prj.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/68ea448e-64f0-4ee3-bcd7-a859e9aab705.jpg",
+      "PackagePath": "staticwebassets/uploads/68ea448e-64f0-4ee3-bcd7-a859e9aab705.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/6950b60f-a072-4019-b035-16d38b03c65f.jpg",
+      "PackagePath": "staticwebassets/uploads/6950b60f-a072-4019-b035-16d38b03c65f.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/6a43ed5f-30c8-47b1-bc00-4970db925072.jpg",
+      "PackagePath": "staticwebassets/uploads/6a43ed5f-30c8-47b1-bc00-4970db925072.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/6ab4edea-3ce5-4e61-80ff-3c59d51be0b0.jpg",
+      "PackagePath": "staticwebassets/uploads/6ab4edea-3ce5-4e61-80ff-3c59d51be0b0.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/6d07cbe30b1c4d54a2ab9be7c23b9d39_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/6d07cbe30b1c4d54a2ab9be7c23b9d39_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/6d4e01a8-f357-46e7-bf70-45bfb4e7817e.jpg",
+      "PackagePath": "staticwebassets/uploads/6d4e01a8-f357-46e7-bf70-45bfb4e7817e.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/71f77d6d-c803-400d-9fed-853f5d7878eb.jpg",
+      "PackagePath": "staticwebassets/uploads/71f77d6d-c803-400d-9fed-853f5d7878eb.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/7223833b-6d50-41cb-8973-e4a70eb3eff7.jpg",
+      "PackagePath": "staticwebassets/uploads/7223833b-6d50-41cb-8973-e4a70eb3eff7.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/725e1b25-55f5-4104-aba7-8fb74f7139da_Screenshot 2025-05-07 at 01.59.21.png",
+      "PackagePath": "staticwebassets/uploads/725e1b25-55f5-4104-aba7-8fb74f7139da_Screenshot 2025-05-07 at 01.59.21.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/7286c1d2-fdc6-43a9-8783-cd5ec1068094.jpg",
+      "PackagePath": "staticwebassets/uploads/7286c1d2-fdc6-43a9-8783-cd5ec1068094.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/73d9a292-e54f-47e5-a8bd-aed8d58c63ca.jpg",
+      "PackagePath": "staticwebassets/uploads/73d9a292-e54f-47e5-a8bd-aed8d58c63ca.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/747827f8-607d-4c0e-bb5b-fc4a4eebf381.jpg",
+      "PackagePath": "staticwebassets/uploads/747827f8-607d-4c0e-bb5b-fc4a4eebf381.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/77ad7284-164e-43ed-90bb-dc1ee64fab52_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/77ad7284-164e-43ed-90bb-dc1ee64fab52_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/791d59e2-64d4-4164-a7de-7b10a467df74_Screenshot 2025-05-25 at 23.03.10.png",
+      "PackagePath": "staticwebassets/uploads/791d59e2-64d4-4164-a7de-7b10a467df74_Screenshot 2025-05-25 at 23.03.10.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/798e8c1f-bc6e-40c6-a878-8b9b7b689c86.jpg",
+      "PackagePath": "staticwebassets/uploads/798e8c1f-bc6e-40c6-a878-8b9b7b689c86.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/7c56c1528f5f4c4db9f85aa076176a01_IMG_5463.HEIC",
+      "PackagePath": "staticwebassets/uploads/7c56c1528f5f4c4db9f85aa076176a01_IMG_5463.HEIC"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/809babea-d604-4097-bec9-ee4f7d5f2521.jpg",
+      "PackagePath": "staticwebassets/uploads/809babea-d604-4097-bec9-ee4f7d5f2521.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/877a476d-51d2-4fef-8cc2-2b569148c2d3.jpg",
+      "PackagePath": "staticwebassets/uploads/877a476d-51d2-4fef-8cc2-2b569148c2d3.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/89b14644-c9c7-4e4e-87ca-1f7583fe9b08.jpg",
+      "PackagePath": "staticwebassets/uploads/89b14644-c9c7-4e4e-87ca-1f7583fe9b08.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/8c56545d-5937-4b20-bd51-8a1a572c76d5_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/8c56545d-5937-4b20-bd51-8a1a572c76d5_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/8dc2fb65-d76f-4115-9018-42e74cc66817.jpg",
+      "PackagePath": "staticwebassets/uploads/8dc2fb65-d76f-4115-9018-42e74cc66817.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/8fad3721-887c-4a3b-b511-c7cd9499e0a4.jpg",
+      "PackagePath": "staticwebassets/uploads/8fad3721-887c-4a3b-b511-c7cd9499e0a4.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/905ff496-5095-4f7c-b17d-ddbecc943879_favicon.png",
+      "PackagePath": "staticwebassets/uploads/905ff496-5095-4f7c-b17d-ddbecc943879_favicon.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/90dbb6a2-56ba-4dcf-904d-49567f6e70f2.jpg",
+      "PackagePath": "staticwebassets/uploads/90dbb6a2-56ba-4dcf-904d-49567f6e70f2.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/913d4bc5-d225-4346-b075-4a8893eb7b6b.jpg",
+      "PackagePath": "staticwebassets/uploads/913d4bc5-d225-4346-b075-4a8893eb7b6b.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/92262d58-0da9-4a0f-8180-701e516d7e06.jpg",
+      "PackagePath": "staticwebassets/uploads/92262d58-0da9-4a0f-8180-701e516d7e06.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/9270c107-4e0e-4b71-9daf-2ce68acce73d.jpg",
+      "PackagePath": "staticwebassets/uploads/9270c107-4e0e-4b71-9daf-2ce68acce73d.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/94521101-e1b4-4d39-a5f4-55cae888db68_prj.jpg",
+      "PackagePath": "staticwebassets/uploads/94521101-e1b4-4d39-a5f4-55cae888db68_prj.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/948766b7-dda9-4ba2-99d0-bb1f201c7b26.jpg",
+      "PackagePath": "staticwebassets/uploads/948766b7-dda9-4ba2-99d0-bb1f201c7b26.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/95fa3149-4fa3-4def-b4d5-805e8fa691c8.jpg",
+      "PackagePath": "staticwebassets/uploads/95fa3149-4fa3-4def-b4d5-805e8fa691c8.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/96b7c5e7-faaf-4862-a31b-ae1d8b4055a5.jpg",
+      "PackagePath": "staticwebassets/uploads/96b7c5e7-faaf-4862-a31b-ae1d8b4055a5.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/9725d695-9af0-46e2-987e-8c936a771cf1.jpg",
+      "PackagePath": "staticwebassets/uploads/9725d695-9af0-46e2-987e-8c936a771cf1.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/980fe4bb-aa4e-488a-9f00-51cd3c7bf5a9_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/980fe4bb-aa4e-488a-9f00-51cd3c7bf5a9_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/9aed0048-a789-4629-82a8-32558cb8e7d6.jpg",
+      "PackagePath": "staticwebassets/uploads/9aed0048-a789-4629-82a8-32558cb8e7d6.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/9ff2ef46-bc17-43e6-bc54-b02c712b305e.jpg",
+      "PackagePath": "staticwebassets/uploads/9ff2ef46-bc17-43e6-bc54-b02c712b305e.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/a0100224-54bf-450e-a897-ec0af565ac61.jpg",
+      "PackagePath": "staticwebassets/uploads/a0100224-54bf-450e-a897-ec0af565ac61.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/a0fb928d-7594-47ef-8c5f-b182cdee34d6.jpg",
+      "PackagePath": "staticwebassets/uploads/a0fb928d-7594-47ef-8c5f-b182cdee34d6.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/a1ca192f-afed-44e2-831e-312dd9289584.jpg",
+      "PackagePath": "staticwebassets/uploads/a1ca192f-afed-44e2-831e-312dd9289584.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/a2457c3f-06c1-48bc-bf52-27d1c6d94369_favicon.png",
+      "PackagePath": "staticwebassets/uploads/a2457c3f-06c1-48bc-bf52-27d1c6d94369_favicon.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/a36e808a-8c8a-4327-bb38-dbe20e8eaf82.jpg",
+      "PackagePath": "staticwebassets/uploads/a36e808a-8c8a-4327-bb38-dbe20e8eaf82.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/a6e64afe-0540-4d4d-b471-e31e0737d34d.jpg",
+      "PackagePath": "staticwebassets/uploads/a6e64afe-0540-4d4d-b471-e31e0737d34d.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/a8dbcaa5-8a73-485c-8319-106f5575feaf.jpg",
+      "PackagePath": "staticwebassets/uploads/a8dbcaa5-8a73-485c-8319-106f5575feaf.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/ad54906f-b004-4db4-9c6d-c1ce82b16ddf_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/ad54906f-b004-4db4-9c6d-c1ce82b16ddf_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/ad79051e-29aa-4d68-9faf-446e1f2bf773.jpg",
+      "PackagePath": "staticwebassets/uploads/ad79051e-29aa-4d68-9faf-446e1f2bf773.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/add6eefa-0647-4fc7-ab42-ed46e271f42f.jpg",
+      "PackagePath": "staticwebassets/uploads/add6eefa-0647-4fc7-ab42-ed46e271f42f.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/ae7294a9-b89f-483e-a413-0a5454d0bd69_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/ae7294a9-b89f-483e-a413-0a5454d0bd69_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/afa8d8c72ae545f0876cd83030f18645_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/afa8d8c72ae545f0876cd83030f18645_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/afa8d8c72ae545f0876cd83030f18645_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered.png",
+      "PackagePath": "staticwebassets/uploads/afa8d8c72ae545f0876cd83030f18645_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/afa8d8c72ae545f0876cd83030f18645_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered.png",
+      "PackagePath": "staticwebassets/uploads/afa8d8c72ae545f0876cd83030f18645_ChatGPT Image 11_01_27 10 thg 6, 2025_filtered_filtered.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/b13638c5-2078-4492-ac76-f9fe919bcde8.jpg",
+      "PackagePath": "staticwebassets/uploads/b13638c5-2078-4492-ac76-f9fe919bcde8.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/b20d5562e08d4022a8cb0dd7c59161aa_Thiết kế chưa có tên (1).jpg",
+      "PackagePath": "staticwebassets/uploads/b20d5562e08d4022a8cb0dd7c59161aa_Thiết kế chưa có tên (1).jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/b20d5562e08d4022a8cb0dd7c59161aa_Thiết kế chưa có tên (1)_filtered.jpg",
+      "PackagePath": "staticwebassets/uploads/b20d5562e08d4022a8cb0dd7c59161aa_Thiết kế chưa có tên (1)_filtered.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/b20d5562e08d4022a8cb0dd7c59161aa_Thiết kế chưa có tên (1)_filtered_filtered.jpg",
+      "PackagePath": "staticwebassets/uploads/b20d5562e08d4022a8cb0dd7c59161aa_Thiết kế chưa có tên (1)_filtered_filtered.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/b20d5562e08d4022a8cb0dd7c59161aa_Thiết kế chưa có tên (1)_filtered_filtered_filtered.jpg",
+      "PackagePath": "staticwebassets/uploads/b20d5562e08d4022a8cb0dd7c59161aa_Thiết kế chưa có tên (1)_filtered_filtered_filtered.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/b2a7d198-ce57-4b53-9838-ac92e736d6f0.jpg",
+      "PackagePath": "staticwebassets/uploads/b2a7d198-ce57-4b53-9838-ac92e736d6f0.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/b45b4336-0036-435f-8647-0e3201d78420.jpg",
+      "PackagePath": "staticwebassets/uploads/b45b4336-0036-435f-8647-0e3201d78420.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/b7eb4e1d-1c1e-4ef0-8705-676d8efb3464.jpg",
+      "PackagePath": "staticwebassets/uploads/b7eb4e1d-1c1e-4ef0-8705-676d8efb3464.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/b82314ad-28b0-4b8c-ab09-f4ee9f95529b_Screenshot 2025-05-23 at 13.44.43.png",
+      "PackagePath": "staticwebassets/uploads/b82314ad-28b0-4b8c-ab09-f4ee9f95529b_Screenshot 2025-05-23 at 13.44.43.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/b8e2e8a6-4111-4ebb-a1a8-500fd7486bb1.jpg",
+      "PackagePath": "staticwebassets/uploads/b8e2e8a6-4111-4ebb-a1a8-500fd7486bb1.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/bb10ac8c-e81c-4444-8e0d-2e6a5959f8b0.jpg",
+      "PackagePath": "staticwebassets/uploads/bb10ac8c-e81c-4444-8e0d-2e6a5959f8b0.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/bb1e985d-b7d6-4f02-887f-4d71ed1ba375.jpg",
+      "PackagePath": "staticwebassets/uploads/bb1e985d-b7d6-4f02-887f-4d71ed1ba375.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/bc2b4056-8ff3-43d4-8e0e-fcc8a16985a1.jpg",
+      "PackagePath": "staticwebassets/uploads/bc2b4056-8ff3-43d4-8e0e-fcc8a16985a1.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/bcbb9482-ae30-4cdc-a02c-4acddc8ffa1f.jpg",
+      "PackagePath": "staticwebassets/uploads/bcbb9482-ae30-4cdc-a02c-4acddc8ffa1f.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/bf6af214-4d30-4ed3-b0ed-3d3323019218.jpg",
+      "PackagePath": "staticwebassets/uploads/bf6af214-4d30-4ed3-b0ed-3d3323019218.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/bfd27a56-3763-486e-aa79-60ce91abc55b.jpg",
+      "PackagePath": "staticwebassets/uploads/bfd27a56-3763-486e-aa79-60ce91abc55b.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/c0026366-e32a-4e8c-a437-e61fcb859034.jpg",
+      "PackagePath": "staticwebassets/uploads/c0026366-e32a-4e8c-a437-e61fcb859034.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/c1c98024-ebdc-4529-b29b-400206fa7b2e_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/c1c98024-ebdc-4529-b29b-400206fa7b2e_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/c272ada2-3ab6-4743-b378-d02b68a75ea5.jpg",
+      "PackagePath": "staticwebassets/uploads/c272ada2-3ab6-4743-b378-d02b68a75ea5.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/c2a79866-0d80-40a0-83fb-4f9d009b89e0.jpg",
+      "PackagePath": "staticwebassets/uploads/c2a79866-0d80-40a0-83fb-4f9d009b89e0.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/c425031a-a3e0-4e7c-a65e-6ba5ed21a58e.jpg",
+      "PackagePath": "staticwebassets/uploads/c425031a-a3e0-4e7c-a65e-6ba5ed21a58e.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/c553d997-a095-425f-8023-229423b99d98.jpg",
+      "PackagePath": "staticwebassets/uploads/c553d997-a095-425f-8023-229423b99d98.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/c6ff6f04-7c44-44c7-8763-71676f034477_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/c6ff6f04-7c44-44c7-8763-71676f034477_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/c7364954-a3ff-4250-881c-856bb15b61aa.jpg",
+      "PackagePath": "staticwebassets/uploads/c7364954-a3ff-4250-881c-856bb15b61aa.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/cf640b48-e6f6-45e6-bba0-59414ea69d5a.jpg",
+      "PackagePath": "staticwebassets/uploads/cf640b48-e6f6-45e6-bba0-59414ea69d5a.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/cfa06a56-55aa-4b27-be5e-20691d5c0cde.jpg",
+      "PackagePath": "staticwebassets/uploads/cfa06a56-55aa-4b27-be5e-20691d5c0cde.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/cfc6e40c-38bf-41ee-8ced-da20b3bdeee0.jpg",
+      "PackagePath": "staticwebassets/uploads/cfc6e40c-38bf-41ee-8ced-da20b3bdeee0.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/d0a11bad-ad2a-47b1-8c84-b2a874fe4091.jpg",
+      "PackagePath": "staticwebassets/uploads/d0a11bad-ad2a-47b1-8c84-b2a874fe4091.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/d0c10be1-6dfc-47c7-bf49-f708380fb0ad.jpg",
+      "PackagePath": "staticwebassets/uploads/d0c10be1-6dfc-47c7-bf49-f708380fb0ad.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/d365762f-4731-4ba4-90ba-1ee2419e6363.jpg",
+      "PackagePath": "staticwebassets/uploads/d365762f-4731-4ba4-90ba-1ee2419e6363.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/d6023904-04e9-4c6d-9772-04e837fb53e1.jpg",
+      "PackagePath": "staticwebassets/uploads/d6023904-04e9-4c6d-9772-04e837fb53e1.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/d6f89d89-48bc-402b-b816-65c4b291f8e8_prj.jpg",
+      "PackagePath": "staticwebassets/uploads/d6f89d89-48bc-402b-b816-65c4b291f8e8_prj.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/d8b10a04-86a0-4481-8a6b-54a79e61c1ba.jpg",
+      "PackagePath": "staticwebassets/uploads/d8b10a04-86a0-4481-8a6b-54a79e61c1ba.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/db228750-ab8e-4a2e-aeed-a8a47c9cbbd0.jpg",
+      "PackagePath": "staticwebassets/uploads/db228750-ab8e-4a2e-aeed-a8a47c9cbbd0.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/dbaea10f-1284-4603-934f-6a94736ca3ee.jpg",
+      "PackagePath": "staticwebassets/uploads/dbaea10f-1284-4603-934f-6a94736ca3ee.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/dbb64320-0c49-4158-893e-b4806822af40.jpg",
+      "PackagePath": "staticwebassets/uploads/dbb64320-0c49-4158-893e-b4806822af40.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/dc05deee-cc74-4d42-a840-f581883f3730.jpg",
+      "PackagePath": "staticwebassets/uploads/dc05deee-cc74-4d42-a840-f581883f3730.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/dc39f975-7e0e-4e0f-a204-371460d86cb2.jpg",
+      "PackagePath": "staticwebassets/uploads/dc39f975-7e0e-4e0f-a204-371460d86cb2.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/dd1215c7-d04d-427a-858d-b3fc22723496.jpg",
+      "PackagePath": "staticwebassets/uploads/dd1215c7-d04d-427a-858d-b3fc22723496.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/ddded5b8-4ff1-4b56-881c-38bcc6b9bb74.jpg",
+      "PackagePath": "staticwebassets/uploads/ddded5b8-4ff1-4b56-881c-38bcc6b9bb74.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/ddeb9b91-89a9-4eed-91a4-7ee7bc43ba2f.jpg",
+      "PackagePath": "staticwebassets/uploads/ddeb9b91-89a9-4eed-91a4-7ee7bc43ba2f.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/df92818f-1628-4dcb-b101-7f749bc29363_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/df92818f-1628-4dcb-b101-7f749bc29363_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/dfc54d9bde5d474b9b6ddeb84fcd44ac_Thiết kế chưa có tên (1).jpg",
+      "PackagePath": "staticwebassets/uploads/dfc54d9bde5d474b9b6ddeb84fcd44ac_Thiết kế chưa có tên (1).jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/dfc54d9bde5d474b9b6ddeb84fcd44ac_Thiết kế chưa có tên (1)_ai_20250614_125210.jpg",
+      "PackagePath": "staticwebassets/uploads/dfc54d9bde5d474b9b6ddeb84fcd44ac_Thiết kế chưa có tên (1)_ai_20250614_125210.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/e41e5d04-f1e4-4e87-b567-a404a5dd030f_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/e41e5d04-f1e4-4e87-b567-a404a5dd030f_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/e523328e-79e3-403d-a5df-20ca5d2152d4.jpg",
+      "PackagePath": "staticwebassets/uploads/e523328e-79e3-403d-a5df-20ca5d2152d4.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/e5d97331-bea6-4e26-a3d8-3111457a2957_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/e5d97331-bea6-4e26-a3d8-3111457a2957_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/e693922d-2bf3-4dac-bf1f-025fae3f1304.jpg",
+      "PackagePath": "staticwebassets/uploads/e693922d-2bf3-4dac-bf1f-025fae3f1304.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/e697806c-1a43-4b57-bf56-214648689762.jpg",
+      "PackagePath": "staticwebassets/uploads/e697806c-1a43-4b57-bf56-214648689762.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/e7ed7070-0059-452c-b7d6-493068a8a050.jpg",
+      "PackagePath": "staticwebassets/uploads/e7ed7070-0059-452c-b7d6-493068a8a050.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/e86ae47a-dc38-4a42-b751-151a1a8fcef4.jpg",
+      "PackagePath": "staticwebassets/uploads/e86ae47a-dc38-4a42-b751-151a1a8fcef4.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/e9d99113-c205-446f-bc7e-0f72cbe7e02d.jpg",
+      "PackagePath": "staticwebassets/uploads/e9d99113-c205-446f-bc7e-0f72cbe7e02d.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/ed428f2afc564717b2ce5516a534bf96_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/ed428f2afc564717b2ce5516a534bf96_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/ee6ab9b9f6b249d2875a8173d759f0c5_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/ee6ab9b9f6b249d2875a8173d759f0c5_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/f3ee8c7b-719b-4cbe-9e6f-a0ad92915f73.jpg",
+      "PackagePath": "staticwebassets/uploads/f3ee8c7b-719b-4cbe-9e6f-a0ad92915f73.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/f62bbd82-7494-470e-a64e-4c0d54ff871c.jpg",
+      "PackagePath": "staticwebassets/uploads/f62bbd82-7494-470e-a64e-4c0d54ff871c.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/faf396d3-ec51-4013-b371-64772c5178a3.jpg",
+      "PackagePath": "staticwebassets/uploads/faf396d3-ec51-4013-b371-64772c5178a3.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/fb554a39-bbf4-4735-af82-f51e16f18fd4.jpg",
+      "PackagePath": "staticwebassets/uploads/fb554a39-bbf4-4735-af82-f51e16f18fd4.jpg"
+    },
+    {
+      "Id": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/wwwroot/uploads/fe88958c-6316-4b6d-8acf-50df5cdcdf6f_ChatGPT Image 11_01_27 10 thg 6, 2025.png",
+      "PackagePath": "staticwebassets/uploads/fe88958c-6316-4b6d-8acf-50df5cdcdf6f_ChatGPT Image 11_01_27 10 thg 6, 2025.png"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.MiniPhotoshop.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.MiniPhotoshop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.MiniPhotoshop.props",
+      "PackagePath": "build\\MiniPhotoshop.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.MiniPhotoshop.props",
+      "PackagePath": "buildMultiTargeting\\MiniPhotoshop.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.MiniPhotoshop.props",
+      "PackagePath": "buildTransitive\\MiniPhotoshop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

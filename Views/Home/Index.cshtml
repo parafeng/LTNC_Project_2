@@ -582,6 +582,98 @@
     </div>
 </div>
 
+<!-- AI Command Input Block -->
+<div class="position-fixed bottom-0 end-0 p-4" style="z-index: 1000;">
+    <!-- Floating AI Icon Button -->
+    <button id="aiIconButton" class="btn btn-primary rounded-circle shadow-lg" 
+            style="width: 60px; height: 60px; background: linear-gradient(45deg, #81bef1, #1976D2); border: none;">
+        <i class="bi bi-magic" style="font-size: 24px;"></i>
+    </button>
+
+    <!-- AI Command Input Block (Hidden by default) -->
+    <div id="aiCommandBlock" class="card shadow-lg border-0 mt-3" 
+         style="width: 400px; background: hsla(208, 91%, 87%, 0.95); backdrop-filter: blur(10px); display: none;">
+        <div class="card-header bg-gradient text-white" style="background: linear-gradient(45deg, #2196F3, #1976D2);">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-magic me-2"></i>
+                    <h5 class="mb-0">AI Image Editor</h5>
+                </div>
+                <button type="button" class="btn-close btn-close-white" id="closeAiBlock"></button>
+            </div>
+        </div>
+        <div class="card-body">
+            <form id="aiCommandForm" method="post" action="/api/image/ai-edit">
+                <div class="mb-3">
+                    <label for="aiCommand" class="form-label fw-bold text-white">Enter your edit command:</label>
+                    <textarea class="form-control" id="aiCommand" name="command" rows="3" 
+                              placeholder="Example: Make the image warmer and increase contrast"
+                              style="resize: none; border: 2px solid #e0e0e0; border-radius: 8px;"></textarea>
+                </div>
+                <input type="hidden" name="imagePath" value="@ViewBag.CurrentImagePath" />
+                <button type="submit" class="btn btn-primary w-100" id="aiEditButton" disabled
+                        style="background: linear-gradient(45deg, #2196F3, #1976D2); border: none; padding: 10px; border-radius: 8px;">
+                    <i class="bi bi-magic"></i> Apply AI Edit
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
 @section Scripts {
     <script src="~/js/app.js"></script>
+    <script>
+        // AI Block Toggle
+        const aiIconButton = document.getElementById('aiIconButton');
+        const aiCommandBlock = document.getElementById('aiCommandBlock');
+        const closeAiBlock = document.getElementById('closeAiBlock');
+
+        aiIconButton.addEventListener('click', () => {
+            aiCommandBlock.style.display = aiCommandBlock.style.display === 'none' ? 'block' : 'none';
+        });
+
+        closeAiBlock.addEventListener('click', () => {
+            aiCommandBlock.style.display = 'none';
+        });
+
+        // Enable/disable AI edit button based on image presence and command input
+        const aiCommandForm = document.getElementById('aiCommandForm');
+        const aiCommand = document.getElementById('aiCommand');
+        const aiEditButton = document.getElementById('aiEditButton');
+        const currentImagePath = '@ViewBag.CurrentImagePath';
+
+        function updateAIButtonState() {
+            aiEditButton.disabled = !currentImagePath || !aiCommand.value.trim();
+        }
+
+        aiCommand.addEventListener('input', updateAIButtonState);
+        updateAIButtonState();
+
+        // Handle form submission
+        aiCommandForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            try {
+                aiEditButton.disabled = true;
+                aiEditButton.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Processing...';
+                
+                const formData = new FormData(this);
+                const response = await fetch(this.action, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to process image');
+                }
+
+                // Reload the page to show the edited image
+                window.location.reload();
+            } catch (error) {
+                alert('Error: ' + error.message);
+                aiEditButton.disabled = false;
+                aiEditButton.innerHTML = '<i class="bi bi-magic"></i> Apply AI Edit';
+            }
+        });
+    </script>
 } 

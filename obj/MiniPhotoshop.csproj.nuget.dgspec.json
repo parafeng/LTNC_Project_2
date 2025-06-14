@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LTNC_Project_2\\MiniPhotoshop.csproj": {}
+    "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/MiniPhotoshop.csproj": {}
   },
   "projects": {
-    "D:\\LTNC_Project_2\\MiniPhotoshop.csproj": {
+    "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/MiniPhotoshop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LTNC_Project_2\\MiniPhotoshop.csproj",
+        "projectUniqueName": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/MiniPhotoshop.csproj",
         "projectName": "MiniPhotoshop",
-        "projectPath": "D:\\LTNC_Project_2\\MiniPhotoshop.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\LTNC_Project_2\\obj\\",
+        "projectPath": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/MiniPhotoshop.csproj",
+        "packagesPath": "/Users/angelinacu/.nuget/packages/",
+        "outputPath": "/Users/angelinacu/Documents/Advanced code/LTNC_Project_2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/angelinacu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -72,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
