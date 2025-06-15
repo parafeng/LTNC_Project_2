@@ -207,6 +207,33 @@ namespace MiniPhotoshop.Backend.Controllers
                 return BadRequest(new { error = ex.Message });
             }
         }
+        
+        /// <summary>
+        /// Apply AI-based image editing based on a text command
+        /// </summary>
+        [HttpPost("ai-edit")]
+        public async Task<IActionResult> AIEdit([FromForm] string imagePath, [FromForm] string command)
+        {
+            try
+            {
+                _logger.LogInformation("Applying AI edit with command: {0} for image {1}", command, imagePath);
+                
+                // Apply AI edit
+                var newImagePath = await _imageProcessingService.ApplyAIEditAsync(imagePath, command);
+                
+                // Save the new image path to TempData
+                TempData["CurrentImagePath"] = newImagePath;
+                
+                // Redirect to home page
+                return RedirectToAction("Index", "Home");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error applying AI edit: {0}", ex.Message);
+                TempData["ErrorMessage"] = $"Error applying AI edit: {ex.Message}";
+                return RedirectToAction("Index", "Home");
+            }
+        }
     }
     
     public class FilterRequest

@@ -261,6 +261,88 @@ namespace MiniPhotoshop.Backend.Services
                 Description = f.Description
             });
         }
+
+        public async Task<string> ApplyAIEditAsync(string imagePath, string command)
+        {
+            try
+            {
+                // Load the image
+                var fullPath = Path.Combine(_environment.WebRootPath, imagePath.TrimStart('/'));
+                using var image = await Image.LoadAsync(fullPath);
+
+                // TODO: Replace with actual AI API call
+                // This is a placeholder that simulates AI processing
+                // In a real implementation, you would:
+                // 1. Call an AI service API (e.g., OpenAI, Azure Computer Vision)
+                // 2. Send the image and command
+                // 3. Receive the processed image
+                // 4. Save and return the new image path
+
+                // For now, we'll just apply some basic filters based on the command
+                if (command.ToLower().Contains("warmer"))
+                {
+                    image.Mutate(x => x.Hue(30));
+                }
+                if (command.ToLower().Contains("contrast"))
+                {
+                    image.Mutate(x => x.Contrast(1.2f));
+                }
+                if (command.ToLower().Contains("brighter"))
+                {
+                    image.Mutate(x => x.Brightness(1.2f));
+                }
+                if (command.ToLower().Contains("saturate"))
+                {
+                    image.Mutate(x => x.Saturate(1.2f));
+                }
+
+                // Save the processed image
+                var newPath = GetNewImagePath(imagePath);
+                await image.SaveAsJpegAsync(Path.Combine(_environment.WebRootPath, newPath.TrimStart('/')));
+
+                // Add to applied filters
+                AddAppliedFilter(imagePath, "AI Edit", new Dictionary<string, object>
+                {
+                    { "command", command }
+                });
+
+                return newPath;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error applying AI edit: {0}", ex.Message);
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Generates a new image path for processed images
+        /// </summary>
+        private string GetNewImagePath(string originalPath)
+        {
+            var fileName = Path.GetFileNameWithoutExtension(originalPath);
+            var extension = Path.GetExtension(originalPath);
+            var timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+            var newFileName = $"{fileName}_ai_{timestamp}{extension}";
+            return Path.Combine(_fileStorageService.UploadDirectory, newFileName).Replace('\\', '/');
+        }
+
+        /// <summary>
+        /// Adds an applied filter to the tracking dictionary
+        /// </summary>
+        private void AddAppliedFilter(string imagePath, string filterName, Dictionary<string, object> parameters)
+        {
+            if (!_appliedFilters.ContainsKey(imagePath))
+            {
+                _appliedFilters[imagePath] = new List<AppliedFilter>();
+            }
+
+            _appliedFilters[imagePath].Add(new AppliedFilter
+            {
+                FilterName = filterName,
+                Parameters = parameters
+            });
+        }
     }
     
     public class FilterInfo
