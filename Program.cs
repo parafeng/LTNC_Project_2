@@ -3,13 +3,17 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.FileProviders;
+using Microsoft.AspNetCore.Mvc.Razor;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using MiniPhotoshop.Backend.Services;
 using MiniPhotoshop.Backend.Filters;
 using MiniPhotoshop.Backend.Filters.BasicFilters;
 using MiniPhotoshop.Backend.Filters.TransformFilters;
-using MiniPhotoshop.Backend.Services;
 using SixLabors.ImageSharp.Web.DependencyInjection;
 using System;
-using System.IO;
 
 namespace MiniPhotoshop
 {
@@ -20,9 +24,17 @@ namespace MiniPhotoshop
             var builder = WebApplication.CreateBuilder(args);
 
             // Thêm services vào container.
-            builder.Services.AddControllersWithViews()
-                .AddApplicationPart(typeof(MiniPhotoshop.Backend.Controllers.HomeController).Assembly)
-                .AddControllersAsServices();
+            builder.Services.AddControllersWithViews(options =>
+            {
+                options.EnableEndpointRouting = false;
+            })
+            .AddRazorOptions(options =>
+            {
+                // Cấu hình lại đường dẫn tìm view trong thư mục Frontend/views
+                options.ViewLocationFormats.Clear();
+                options.ViewLocationFormats.Add("/Frontend/views/{1}/{0}" + RazorViewEngine.ViewExtension);
+                options.ViewLocationFormats.Add("/Frontend/views/Shared/{0}" + RazorViewEngine.ViewExtension);
+            });
             builder.Services.AddRazorPages();
 
             // Add session services
@@ -39,40 +51,39 @@ namespace MiniPhotoshop
 
             // Đăng ký các dịch vụ
             builder.Services.AddSingleton<FileStorageService>();
-            builder.Services.AddScoped<ImageProcessingService>();
+            builder.Services.AddSingleton<ImageProcessingService>();
 
-            // Đăng ký các bộ lọc
-            // Bộ lọc màu sắc và độ sáng
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.GrayscaleFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.SepiaFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.BrightnessFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.ContrastFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.SaturationFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.HueFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.GammaFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.InvertFilter>();
+            // Đăng ký các bộ lọc cơ bản
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.GrayscaleFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.SepiaFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.InvertFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.BrightnessFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.ContrastFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.HueFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.SaturationFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.GammaFilter>();
 
-            // Bộ lọc biến đổi
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.FlipHorizontalFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.FlipVerticalFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.RotateFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.ResizeFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.CropFilter>();
+            // Đăng ký các bộ lọc biến đổi
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.FlipHorizontalFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.FlipVerticalFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.RotateFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.ResizeFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.CropFilter>();
 
-            // Bộ lọc làm mờ và sắc nét
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.BlurFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.GaussianBlurFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.BoxBlurFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.SharpenFilter>();
+            // Đăng ký các bộ lọc làm mờ và sắc nét
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.BlurFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.GaussianBlurFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.BoxBlurFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.SharpenFilter>();
 
-            // Bộ lọc hiệu ứng đặc biệt
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.PixelateFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.OilPaintFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.LomographFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.PolaroidFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.KodachromeFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.GlowFilter>();
-            builder.Services.AddTransient<IImageFilter, MiniPhotoshop.Backend.Filters.VignetteFilter>();
+            // Đăng ký các bộ lọc hiệu ứng đặc biệt
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.PixelateFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.OilPaintFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.LomographFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.PolaroidFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.KodachromeFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.GlowFilter>();
+            builder.Services.AddSingleton<IImageFilter, MiniPhotoshop.Backend.Filters.VignetteFilter>();
 
             // Thêm CORS policy
             builder.Services.AddCors(options =>
