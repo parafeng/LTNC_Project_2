@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 const valueDisplay = form.querySelector('.range-value');
                 if (valueDisplay) {
                     valueDisplay.textContent = this.value;
-                }
-                
+    }
+    
                 // Xem trước bộ lọc
                 clearTimeout(previewTimeout);
                 previewTimeout = setTimeout(() => {
@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 }, PREVIEW_DELAY);
             }
         });
-    });
-
+        });
+        
     // Điều chỉnh kích thước của phần xem trước khi cửa sổ thay đổi kích thước
     window.addEventListener('resize', adjustPreviewHeight);
     
@@ -52,8 +52,8 @@ document.addEventListener('DOMContentLoaded', function() {
             } else {
                 previewCard.style.boxShadow = '0 4px 8px rgba(0,0,0,0.1)';
             }
-        }
-    });
+            }
+        });
     
     // Tải danh sách các bộ lọc đã áp dụng
     loadAppliedFilters();
@@ -85,8 +85,8 @@ function loadAppliedFilters() {
                     </div>
                 `;
                 return;
-            }
-            
+    }
+    
             // Hiển thị danh sách các bộ lọc đã áp dụng
             filters.forEach((filter, index) => {
                 const filterItem = document.createElement('div');
@@ -103,7 +103,7 @@ function loadAppliedFilters() {
                             <span class="badge bg-secondary me-2">${index + 1}</span>
                             <strong>${filter.filterName}</strong>
                         </div>
-                    </div>
+                </div>
                     ${paramString ? `<small class="text-muted">${paramString}</small>` : ''}
                 `;
                 
@@ -116,8 +116,8 @@ function loadAppliedFilters() {
                 <div class="list-group-item text-center text-danger">
                     <i class="bi bi-exclamation-triangle me-2"></i>
                     Không thể tải danh sách bộ lọc
-                </div>
-            `;
+            </div>
+        `;
         });
 }
 
@@ -149,7 +149,7 @@ function previewFilter(form) {
     if (!imagePath) return;
 
     const formData = new FormData(form);
-    
+        
     // Hiển thị trạng thái đang tải
     const imagePreview = document.getElementById('imagePreview');
     imagePreview.classList.add('loading');
@@ -157,17 +157,17 @@ function previewFilter(form) {
     const currentImage = imagePreview.querySelector('img');
     if (currentImage) {
         currentImage.style.opacity = '0.5';
-    }
-    
+        }
+        
     // Gọi API xem trước
     fetch('/api/image/preview', {
-        method: 'POST',
+                method: 'POST',
         body: formData
     })
     .then(response => {
         if (!response.ok) {
             throw new Error('Lỗi khi xem trước bộ lọc');
-        }
+            }
         return response.json();
     })
     .then(data => {
@@ -184,15 +184,15 @@ function previewFilter(form) {
                 
                 // Điều chỉnh chiều cao tối đa
                 adjustPreviewHeight();
-                
+        
                 // Xóa placeholder nếu có
                 while (imagePreview.firstChild) {
                     imagePreview.removeChild(imagePreview.firstChild);
-                }
+        }
                 
                 imagePreview.appendChild(newImage);
-            }
-            
+    }
+    
             // Xóa trạng thái đang tải
             imagePreview.classList.remove('loading');
         }
